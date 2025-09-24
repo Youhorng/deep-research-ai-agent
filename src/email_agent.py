@@ -22,7 +22,7 @@ def send_email(subject: str, html_body: str, to:str):
                             },
                             "To": [
                                     {
-                                            "Email": "lolishi30@gmail.com"
+                                            "Email": to
                                     }
                             ],
                             "Subject": subject,
